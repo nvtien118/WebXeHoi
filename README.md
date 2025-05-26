@@ -6,10 +6,12 @@ B3: Sau đó vào appsettings.json và thay đổi tên theo Server name của S
 
 Account:
 - Tài khoản Admin: (sau khi đăng nhập nhấn vào Admin Dashbord để vào trang Admin)
+
 TK: admin@gmail.com
 MK: Admin@123
 
 - Tài khoản User: (có thể dùng để mua sắm nhưng không thể vào trang Admin)
+
 TK: nvtien123@gmail.com
 MK: Nvtien@123
 
