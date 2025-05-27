@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebXeHoi.Models
@@ -9,7 +10,9 @@ namespace WebXeHoi.Models
 		public string UserId { get; set; }
 		public DateTime OrderDate { get; set; }
 		public decimal TotalPrice { get; set; }
+		[Required(ErrorMessage = "Shipping Address is required")]
 		public string ShippingAddress { get; set; }
+		[Required(ErrorMessage = "Please enter some notes")]
 		public string Notes { get; set; }
 		[ForeignKey("UserId")]
 		[ValidateNever]
